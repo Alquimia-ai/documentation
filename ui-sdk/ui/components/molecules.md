@@ -194,3 +194,40 @@ Highlighted information component. In this case, it's a chat message. The callou
     ))}
   </CallOut>
 ```
+
+## Interactive Components
+
+### AssistantButton
+Floating action button with hover-triggered suggestion menu. Commonly used for chat or help interfaces. Can be combined with the Drawer component to create a chat interface and trigger the drawer with the button, along with the suggestions.
+
+```tsx
+const messageSuggestions = [
+  {
+    label: "Help",
+    icon: HelpCircle,
+    action: () => handleSuggestion("What is this?"),
+  },
+  {
+    label: "Features",
+    icon: Target,
+    action: () => handleSuggestion("Show me the features"),
+  }
+];
+
+<AssistantButton
+  icon={MessageCircle}
+  clickAction={handleOpen}
+  suggestions={messageSuggestions}
+/>
+```
+
+Props:
+- `icon`: LucideIcon component to display in the button
+- `clickAction`: Function to execute on button click
+- `className`: Optional custom classes
+- `suggestions`: Array of suggestion objects with:
+  - `label`: Text to display
+  - `icon`: LucideIcon for the suggestion
+  - `action`: Function to execute when suggestion is clicked
+
+The component features a smooth animation when hovering, displaying a list of configurable suggestions that can trigger different actions.
