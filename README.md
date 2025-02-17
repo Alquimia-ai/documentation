@@ -1,3 +1,7 @@
+<p align="center">
+  <img src='https://www.alquimia.ai/logo-alquimia.svg' width=500>
+</p>
+
 # Welcome to Alquimia AI
 
 Alquimia is an advanced Agentic AI platform designed to deploy and manage AI agents and assistants in collaborative and enterprise environments. It provides a robust framework for creating, running, and scaling AI-driven conversational agents that replicate human-like interactions based on seven core principles:
@@ -24,6 +28,10 @@ Alquimia is powered by the Alquimia Operational Handler, an event-driven runtime
 Alquimia is tailored for medium to large enterprises, offering a secure, scalable, and cost-effective solution for deploying AI agents in mission-critical environments. Its modular architecture and focus on ethical AI make it a trusted choice for developers and architects building next-generation AI-powered applications.
 
 # Key features
+
+<p align="center">
+  <img src='./assets/key-features.png' alt="Alquimia Key Features" width="800">
+</p>
 
 ## Event-Driven & Serverless
 
@@ -68,3 +76,25 @@ Alquimia is tailored for medium to large enterprises, offering a secure, scalabl
 - Event-Driven Triggers: Uses event-driven triggers to initiate actions, ensuring that operations are executed only when necessary, which enhances efficiency and reduces resource wastage.
 
 Alquimia runtime is a highly scalable, flexible, and efficient platform designed for enterprise environments. Its event-driven, serverless architecture built on Knative and Kubernetes ensures cost efficiency and high performance, while its support for omni-channel communication and custom integrations makes it a versatile solution for modern AI-driven workflows.
+
+# Architecture
+
+Alquimia is a cutting-edge Agentic AI platform designed to empower developers and enterprises to build, deploy, and manage AI agents and assistants in collaborative and enterprise environments. At its core, Alquimia is built on a reactive, serverless architecture that combines scalability, flexibility, and cost efficiency to deliver human-like conversational experiences. The architecture is designed to handle complex workflows, multi-channel communication, and dynamic user interactions while maintaining high performance and ethical standards.
+
+For more information about the architecture, please refer to the [Architecture](architecture/README.md) documentation.
+
+# Source Code and distribution
+
+Alquimia provides two main open-source distributions to help developers build and deploy AI-driven agents and assistants. Below is an explanation of each distribution and its documentation focus:
+
+## Alquimia Runtime
+
+The Alquimia Runtime is the core engine that powers the deployment and management of AI agents in enterprise environments. It is designed to be event-driven, serverless, and highly scalable, built on Knative and Kubernetes.
+
+For further information about the Alquimia Runtime, please refer to the [Alquimia Runtime README](runtime/README.md).
+
+## Alquimia SDK UI
+
+The Alquimia SDK UI is a React library designed to help developers seamlessly implement user interfaces for AI agents. It supports Next.js 14 and above, making it easy to integrate agent UIs into modern web applications.
+
+For further information about the Alquimia SDK UI, please refer to the [Alquimia SDK UI README](ui-sdk/README.md).
