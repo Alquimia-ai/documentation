@@ -2,6 +2,24 @@
   <img src='https://www.alquimia.ai/logo-alquimia.svg' width=500>
 </p>
 
+# Table of Contents
+
+- [Welcome to Alquimia AI](#welcome-to-alquimia-ai)
+- [Technical Overview](#technical-overview)
+- [Key Features](#key-features)
+  - [Event-Driven & Serverless](#event-driven--serverless)
+  - [Flexible & Modular](#flexible--modular)
+  - [Context-Aware Prompting](#context-aware-prompting)
+  - [Omni-Channel Communication](#omni-channel-communication)
+  - [Intelligent Memory Management](#intelligent-memory-management)
+  - [High Performance & Async Execution](#high-performance--async-execution)
+  - [Multi-Agent & Multi-LLM](#multi-agent--multi-llm)
+  - [Enterprise-Grade Automation](#enterprise-grade-automation)
+- [Architecture](#architecture)
+- [Source Code and Distribution](#source-code-and-distribution)
+  - [Alquimia Runtime](#alquimia-runtime)
+  - [Alquimia SDK UI](#alquimia-sdk-ui)
+
 # Welcome to Alquimia AI
 
 Alquimia is an advanced Agentic AI platform designed to deploy and manage AI agents and assistants in collaborative and enterprise environments. It provides a robust framework for creating, running, and scaling AI-driven conversational agents that replicate human-like interactions based on seven core principles:
