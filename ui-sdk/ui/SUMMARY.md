@@ -5,6 +5,9 @@
 ## Getting Started
 * [Installation](getting-started/installation.md)
 
+## Examples
+* [Examples](examples/examples.md)
+
 ## Components
 * [Overview](components/overview.md)
 * [Atoms](components/atoms.md)
@@ -13,6 +16,6 @@
 
 ## Styling
 * [Styling](styling/styling.md)
-
+* [Themes](styling/themes.md)
 ## API Reference
 * [Types](api-reference/types.md)
