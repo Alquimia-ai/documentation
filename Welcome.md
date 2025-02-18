@@ -1,3 +1,5 @@
+# Welcome to Alquimia AI
+
 <p align="center">
   <img src='https://www.alquimia.ai/logo-alquimia.svg' width=500>
 </p>
@@ -19,8 +21,6 @@
 - [Source Code and Distribution](#source-code-and-distribution)
   - [Alquimia Runtime](#alquimia-runtime)
   - [Alquimia SDK UI](#alquimia-sdk-ui)
-
-# Welcome to Alquimia AI
 
 Alquimia is an advanced Agentic AI platform designed to deploy and manage AI agents and assistants in collaborative and enterprise environments. It provides a robust framework for creating, running, and scaling AI-driven conversational agents that replicate human-like interactions based on seven core principles:
 
