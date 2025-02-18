@@ -2,8 +2,8 @@
 
 * [Welcome To Alquimia](README.md)
 * [Architecture](architecture/README.md)
-* [Alquimia Operational Handler](runtime/README.md)
-* [Alquimia-AI UI SDK](ui-sdk/README.md)
+* [Operational Handler](runtime/README.md)
+* [UI SDK](ui-sdk/README.md)
   * [Alquimia-AI Tools](ui-sdk/tools/README.md)
     * [Summary](ui-sdk/tools/SUMMARY.md)
     * [getting-started](ui-sdk/tools/getting-started/README.md)
