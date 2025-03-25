@@ -3,6 +3,7 @@
 * [Welcome To Alquimia](README.md)
 * [Architecture](architecture/README.md)
 * [Operational Handler](runtime/README.md)
+* [Alquimia Runtime Helm Chart](helm/alquimiaruntime/README.md)
 * [UI SDK](ui-sdk/README.md)
   * [Alquimia-AI Tools](ui-sdk/tools/README.md)
     * [Summary](ui-sdk/tools/SUMMARY.md)
