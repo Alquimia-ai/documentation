@@ -104,6 +104,7 @@ A React hook that provides a complete chat interface implementation. Main featur
   - Handles real-time message streaming
   - Processes message chunks for smooth updates
   - Supports message metadata
+  - Supports system messages
 
 - **State Management**:
 
@@ -326,3 +327,52 @@ Your AI assistant now includes:
 - Error handling with toast notifications
 - Message history
 - Loading states
+
+
+#### User Messages vs. System Messages
+
+In many assistant applications, it's important to distinguish between messages sent by the user and those triggered by the system or application logic. This distinction allows for more flexible, context-aware, and automated assistant behaviors.
+
+- **User Message**: Sent when a user submits input (e.g., via a form or chat box). Use `handleSubmit` for this.
+- **System Message**: Sent programmatically by your app, not directly triggered by user input. Use `handleSystemMessage` for this. Examples include:
+  - Sending a welcome message when a user opens the chat
+  - Triggering a message based on an external event (e.g., onboarding step, notification)
+
+### Sending System Messages
+
+The `useAlquimia` hook supports sending system messages using the `handleSystemMessage` function. This allows you to programmatically send messages to the assistant, which are not directly triggered by user input.
+
+**Example: Sending a Welcome System Message**
+
+```typescript
+import { useEffect } from "react";
+
+const { handleSystemMessage } = useAlquimia(sdk);
+
+  const sendInitialMessage = async () => {
+    try {
+      await handleSystemMessage("Hi, how are you?");
+    } catch (error) {
+      console.error('error', error)
+    }
+  };
+
+  // Send a system message when the assistant is first opened
+  useEffect(() => {
+    sendInitialMessage();
+  }, []);
+
+  // ...rest of the implementation
+```
+
+**Parameters:**
+- `message` (string): The message to send.
+- `options` (object, optional):
+  - `messageType` (string): Type of the message (defaults to "system").
+  - `traceParentId` (string): For tracing requests.
+  - `sessionId` (string): Specifies the id of the conversation session.
+
+**When to use system messages:**
+- Onboarding flows (e.g., greet the user)
+- Automated assistant prompts
+- Triggering assistant actions based on app events
