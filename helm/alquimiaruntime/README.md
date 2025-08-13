@@ -6,7 +6,7 @@ This Helm chart deploys **Alquimia Runtime**, an event-driven and serverless eng
 
 - A running Openshift or Kubernetes cluster.
 
-- Openshift Serverless (Knative) runtime installed.
+- Openshift Serverless (Knative) runtime installed, serving and eventing.
 
 - Openshift Service Mesh (Istio) for networking.
 
